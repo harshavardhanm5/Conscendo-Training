@@ -15,6 +15,6 @@ public class ASSDay3
     public static void Day3Session()
     {
         List<Account> accList = [Select id,name,industry from Account];
-        
+        system.debug('AccountsList'+accList);
     }
 }
